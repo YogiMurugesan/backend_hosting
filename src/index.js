@@ -5,11 +5,15 @@ const hbs = require("hbs");
 const collection = require("./mongodb");
 const detail=require("./mongo");
 const tempelatepath = path.join(__dirname, "../temelates");
+
 app.use(express.json());
 app.set("view engine", "hbs");
 app.set("views", tempelatepath);
-app.use("/images",express.static('images'));
+
+app.use(express.static('src'));
 app.use(express.urlencoded({ extended: false }));
+
+
 
 app.get("/", (req, res) => {
   res.render("login");
