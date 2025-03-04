@@ -1,0 +1,28 @@
+[debug] [2025-03-04T10:39:59.639Z] : 
+[debug] [2025-03-04T10:39:59.641Z] : ----------------------------------------------------------------------
+[debug] [2025-03-04T10:39:59.641Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-03-04T10:39:59.641Z] : CLI Version:  1.17.6
+[debug] [2025-03-04T10:39:59.641Z] : Platform:     win32
+[debug] [2025-03-04T10:39:59.641Z] : Node Version: v20.17.0
+[debug] [2025-03-04T10:39:59.641Z] : Time:         Tue Mar 04 2025 16:09:59 GMT+0530 (India Standard Time)
+[debug] [2025-03-04T10:39:59.642Z] : ----------------------------------------------------------------------
+[debug] [2025-03-04T10:39:59.642Z] : 
+[debug] [2025-03-04T10:40:00.576Z] : > authorizing via signed-in user option
+[debug] [2025-03-04T10:40:00.576Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-03-04T10:40:00.588Z] : > refreshing access token <
+[debug] [2025-03-04T10:40:00.589Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-03-04T10:40:01.177Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 04 Mar 2025 10:40:02 GMT","content-type":"application/json;charset=UTF-8","content-length":"1979","connection":"keep-alive","set-cookie":["zalb_6e73717622=13e67ac15bc4d3ece130966123511df7; Path=/; Secure; HttpOnly","iamcsr=e1921923-a4df-4698-a5bc-fff42c30fcc3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e1921923-a4df-4698-a5bc-fff42c30fcc3;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-03-04T10:40:01.194Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/9800000000007122 
+
+[debug] [2025-03-04T10:40:01.536Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 04 Mar 2025 10:40:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=411f509465b028e7e235eac6930aaab2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=16bc0444-e74a-4f8e-b2ff-c72f8f6b46df;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=16bc0444-e74a-4f8e-b2ff-c72f8f6b46df;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-03-04T10:40:01.537Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/9800000000007122/environment 
+
+[debug] [2025-03-04T10:40:01.643Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 04 Mar 2025 10:40:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=ed010f63633be60a322039283f31a645; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=3428a1d3-c170-42a6-b8f2-9d9d51308648;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3428a1d3-c170-42a6-b8f2-9d9d51308648;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
