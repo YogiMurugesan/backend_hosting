@@ -26,3 +26,5 @@ Response Headers: {"server":"ZGS","date":"Tue, 04 Mar 2025 10:40:03 GMT","conten
 [debug] [2025-03-04T10:40:01.643Z] : <<<< HTTP RESPONSE : 200
 Response Headers: {"server":"ZGS","date":"Tue, 04 Mar 2025 10:40:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=ed010f63633be60a322039283f31a645; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=3428a1d3-c170-42a6-b8f2-9d9d51308648;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3428a1d3-c170-42a6-b8f2-9d9d51308648;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
 
+[debug] [2025-03-04T10:40:07.179Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/9800000000007122/appsail/upsert 
+
